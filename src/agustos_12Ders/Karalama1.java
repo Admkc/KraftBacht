@@ -1,0 +1,75 @@
+package agustos_12Ders;
+
+public class Karalama1 {
+    public static void main(String[] args){
+
+        System.out.println("vvvvvvvvvvvv");
+
+
+
+
+
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
