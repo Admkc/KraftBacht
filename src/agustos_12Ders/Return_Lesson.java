@@ -48,6 +48,7 @@ public class Return_Lesson {
 //pozitifse pozitif olarak versin.
 
     public static int converttoPozitif(int a){
+
         return Math.abs(a);    ////sayiyi pozitife ceviriyor Math.abs
     }
 
@@ -59,8 +60,9 @@ public class Return_Lesson {
 //51-75 B
 //0-50 C
 
-      char not='X';     ///bu degeri baslangıc icin atamak zorundayiz
+
     public static char gecmeNotu(double not1,double not2,double not3){
+        char not='X';     // /bu degeri baslangıc icin atamak zorundayiz
         double ortalama=(not1+not2+not3)/3;
         if(ortalama>=76 && ortalama<=100){
             return 'A';

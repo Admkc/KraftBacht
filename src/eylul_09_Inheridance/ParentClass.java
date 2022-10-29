@@ -7,7 +7,7 @@ public class ParentClass {
 
 
     }
-    public static void run(){
+    public static void  run(){
         System.out.println("parent kosuyor");
     }
 

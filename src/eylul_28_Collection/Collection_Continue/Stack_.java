@@ -5,6 +5,7 @@ import java.util.Stack;
 
 public class Stack_ {
     public static void main(String[] args) {
+        //lifo
 
 
         Stack<Integer> stc=new Stack<>();

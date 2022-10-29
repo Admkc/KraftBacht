@@ -76,8 +76,8 @@ public class List_Lesson {
 //          [200, 150, 100, 300, 50, 40, 30, 20, 10, 3]
 
          ListIterator<Integer> listIterator=liste.listIterator();
-        System.out.println(listIterator.hasNext());
-        System.out.println(listIterator.next());
+        System.out.println(listIterator.hasNext()); //true
+        System.out.println(listIterator.next());//200
 
         while (listIterator.hasNext()){
             Integer next = listIterator.next();

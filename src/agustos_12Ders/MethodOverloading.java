@@ -35,10 +35,6 @@ olsunlar. Birincisi kare-dikdörtgen alanını hesaplasın.
         concat yapsın. False ise başka bir methodu çağırsın ve
         String değeri int kadar yazdırsın.
     }
-    Bir method yazın 3 parametreli olsun. İnt ve String type
-ve birde boolean. Boolean true ise int ve String değeri
-concat yapsın. False ise başka bir methodu çağırsın ve
-String değeri int kadar yazdırsın.
 
     public static void concat(int i,String str,boolean bl){
         if(bl){

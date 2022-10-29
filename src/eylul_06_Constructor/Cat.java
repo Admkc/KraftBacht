@@ -10,7 +10,7 @@ public class Cat {
 
     }
     public Cat(String eyeColor,String breed,boolean isFat,boolean isPet){
-
+        this.food();
         this.sleep();
         this.eyeColor=eyeColor;
         this.breed=breed;
@@ -26,6 +26,15 @@ public class Cat {
     public void food(){
         System.out.println("az");
     }
+    public void yeme(){
+        if(this.isFat){
+            System.out.println("cok yiyor");
+
+        }else {
+            System.out.println("az yiyor");
+        }
+    }
+
 }
 class CatMain{
     public static void main(String[] args) {
@@ -34,5 +43,8 @@ class CatMain{
         //System.out.println(efe.run());
         efe.food();
         //efe.sleep();
+        efe.yeme();
     }
+
+
 }

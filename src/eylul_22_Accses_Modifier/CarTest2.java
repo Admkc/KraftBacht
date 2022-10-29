@@ -7,8 +7,12 @@ public class CarTest2  {
         Car1 car1=new Car1();
  //     car1.model="honda";
         car1.year=2020;
+
  //       car1.door=4;    private oldugu icin erisilmez.
  //       car1.engine=1.6;
+
+
+
 
 
 

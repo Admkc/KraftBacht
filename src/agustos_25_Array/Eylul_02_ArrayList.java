@@ -43,7 +43,7 @@ public class Eylul_02_ArrayList {
         System.out.println("set names " +names);
 
         System.out.println("indeks " +names.indexOf("Hasan"));
-        System.out.println(" last indeks" +names.lastIndexOf("Hasan")); //sorrrrrrrrr
+        System.out.println(" last indeks" +names.lastIndexOf("Hasan"));
 
         names.remove("Mustafa");
         System.out.println(" remove 2. names :" +names);
@@ -246,7 +246,7 @@ public class Eylul_02_ArrayList {
 //    stringNums isimli arrayList i
 //    toIntArr(stringNums); methodu ile int bir array e convert edip
 //    döndürelim
-    public static int[] toIntArr(ArrayList<String> strlist){    // tekrar et*****************
+    public static int[] toIntArr(ArrayList<String> strlist){
         int[] arry=new int[strlist.size()];
         for(int i=0;i<strlist.size();i++){
             arry[i]=Integer.valueOf(strlist.get(i));

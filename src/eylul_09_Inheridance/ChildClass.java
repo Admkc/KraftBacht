@@ -10,7 +10,7 @@ public class  ChildClass  extends ParentClass{
 
 
     }
-    public static void run(){
+    public  static void run(){
         System.out.println("child kosuyor");
 
     }

@@ -41,8 +41,8 @@ Sayının her basamağının küplerinin toplamı sayının kendisine eşitse bu
     public static void armstrong(int start,int end){
         for(int i=start;i<=end;i++){
             int x,y,z,sonuc;
-            x=i/100;
-            y=i%100/10;    //burayı sor************
+            x=i/100;  //1
+            y=i%100/10;
             z=i%10;
             sonuc=x*x*x+y*y*y+z*z*z;
             if(i==sonuc){

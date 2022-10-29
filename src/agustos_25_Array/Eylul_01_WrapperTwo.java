@@ -47,6 +47,7 @@ public class Eylul_01_WrapperTwo {
           }
 
 
+
         }
         System.out.println(result);
 
@@ -77,11 +78,6 @@ public class Eylul_01_WrapperTwo {
             }
         }
         System.out.print("sayi1 :" +sayi1);
-
-
-
-
-
 
     }
 }

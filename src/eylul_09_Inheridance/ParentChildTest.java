@@ -5,6 +5,8 @@ public class ParentChildTest {
 
         ChildClass childClass=new ChildClass();
 
+
+
         childClass.print_message_P();
         childClass.print_message_C();
 

@@ -27,6 +27,8 @@ class GarageTruck{
         truck.color="kirmizi";
 
         truck.sellPriceWithTax(120000);
+        truck.sellPriceWithTax(12000);
+
 
         truck.carrying();
         truck.toString();

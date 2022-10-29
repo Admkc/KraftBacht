@@ -50,7 +50,7 @@ public class Agustos25DersArray {
 
  //           2 array kabul eden bir method yazın ve arraylerin llk elemanları ile yeni bir array döndürsün.
 
-    public static int[] newArrWithFirstElement(int[] iArr1,int[] iArr2){      //sor****
+    public static int[] newArrWithFirstElement(int[] iArr1,int[] iArr2){      //sor*********kendin bak
        int[] newArr=new int[2];
  //       int[] newArr={iArr1[1],iArr2[3]};        2.yontem
         newArr[0]=iArr1[1];
@@ -70,18 +70,22 @@ public class Agustos25DersArray {
     }
  //   ************ soru6******************
 
- //   Verilen 2 arrayi birleştirip array döndüren bir method yazın. *****TEKRAR EDİLECEK***kod calismiyor
+ //   Verilen 2 arrayi birleştirip array döndüren bir method yazın.
 
     public static int[] concatArry(int[] Arr1,int[] Arry2) {
-        int[] newArry=new int[Arr1.length+Arry2.length];
-        for(int i=0;i<newArry.length;i++){
+        int[] sary=new int[Arr1.length+Arry2.length];
+
+        for (int i=0,j=0;i<sary.length;i++){
             if(i<Arr1.length){
-                newArry[i]=Arr1[i];
-            }else{
-                newArry[i]=Arr1[i-Arr1.length];
+                sary[i]=Arr1[i];
+            }else {
+                sary[i]=Arry2[j];
+                j++;
             }
+
         }
-        return newArry;
+        return sary;
+
     }
 
 

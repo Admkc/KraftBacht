@@ -1,6 +1,11 @@
 package eylul_22_AccessModifier;
 
 public class Car1 extends Object{//tüm sınıflar object classa baglıdır otamatik olarak
+
+    public int num1;
+    protected int num2;
+    int num3;
+    private int num4;
     String model;
     public int year;
 
@@ -11,6 +16,7 @@ public class Car1 extends Object{//tüm sınıflar object classa baglıdır otam
     public void method2(){}
     private void method3(){}
     protected void method4(){}
+
 
 
 

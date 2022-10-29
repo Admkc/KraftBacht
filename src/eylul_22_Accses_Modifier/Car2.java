@@ -4,6 +4,11 @@ import eylul_22_AccessModifier.Car1;
 
 public class Car2 extends Car1 {
 
+    public String renk;
+    protected String model;
+    String marka;
+    private String dizayn;
+
     @Override
     public void method2() {
         super.method2();

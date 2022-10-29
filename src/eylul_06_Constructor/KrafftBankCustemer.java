@@ -5,7 +5,7 @@ import java.util.Random;
 public class KrafftBankCustemer {
 
 
-//    KraftBank adında bir class oluşturun, customerId, customerFullName, isSms,
+//    KraftBankCustemer adında bir class oluşturun, customerId, customerFullName, isSms,
 //            customerAccount, customerToken, adında fields tanımlayın,
 //1-customerId, customerFullName, isSms ilk tanımlama esnasında zorunlu olacak
 //2-ilk tanımlama esnasında customerAccount tanımlanmayacak default 0 gelmesi gerekli.
@@ -32,11 +32,13 @@ public class KrafftBankCustemer {
         this.custemerAccount+=(money*18.22);
 
     }
+}
+class main{
+    public static void main(String[] args) {
+        KrafftBankCustemer musteri=new KrafftBankCustemer(1452,"Adem Koc",true);
+        System.out.println(musteri.custemerToken);
 
-
-
-
-
+    }
 }
 
 

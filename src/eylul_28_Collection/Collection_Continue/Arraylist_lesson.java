@@ -69,6 +69,7 @@ public class Arraylist_lesson {
         Integer[] toarray=col.toArray(new Integer[15]);  //boyutundan byuk olursa deger digerlerini null yazdırır.
 
         System.out.println("array : "+Arrays.toString(toarray));
+        Integer[] myary=col.toArray(new Integer[15]);
 
 
     }

@@ -112,13 +112,13 @@ public class Agustos_23_MrHarun {
 //    Merhaba a
 //    aaaaaaabbcccc a
 //    eeemmmsssssssssshhhhhhhhhsss s
-    public static char  enCokHarf(String kelime){            //kod calismiyor tekrar et
+    public static char  enCokHarf(String kelime){
         String holder ="";
         int max=0;
 
        loop1: for(int i=0;i<kelime.length();i++){
            int count=0;
-           loop2:     for(int k=0;k<kelime.length();i++){
+           loop2:     for(int k=0;k<kelime.length();k++){
                 if(kelime.charAt(i)==kelime.charAt(k)){
                     count++;
                 }if(count>max){
@@ -167,7 +167,7 @@ public class Agustos_23_MrHarun {
 //    Selcuk-Elyase false
 
     public static boolean ayniHarfliKelime(String str1,String str2){
-        String holder = "";
+
 
         firstLoop: for(int i=0; i<str1.length(); i++){
             secondLoop: for(int k=0; k<str2.length(); k++){
@@ -209,7 +209,7 @@ public class Agustos_23_MrHarun {
 //    Merhaba M
 //    Araba r
 //    Karkas rotası o
-    public static String findBenzersizHarf(String str){
+    public static String findBenzersizHarf(String str){       //tekrar ettttt kod calişmıyor
 
         str = str.replace(" ", "");
         String emptyString = "";
@@ -231,7 +231,7 @@ public class Agustos_23_MrHarun {
 //    abaccb c
 //    Arsız ardı ardına tekrar eden harf yoktur
 //    amannsız n
-      public static char tekrarEdenHarf(String str){
+      public static char tekrarEdenHarf(String str){     //kod calişmiyorrrrr
       String str1=str.toLowerCase();
       char sonuc=' ';
       for(int i=0;i<str1.length();i++){

@@ -149,17 +149,18 @@ public class Agustos_29ArrayCozumler {
          }
          return false;
         }
-        return true;              // önce true ya da false demek onemli mi sor***********
+        return true;
     }
 //    Array’in içerisindeki sayıları
-// ters çevirerek yeni bir array oluşturan metodu yazınız
+// ters çevirerek yeni bir array oluşturan metodu yazınız    //tekrar bak kod calişmıyorrrr
 
-    public static int[] tersArray(int[] arr){
-        int[] yeniArray=new int[arr.length];
-        for(int i=yeniArray.length-1,k=0;     k<yeniArray.length;    i--,k++ ){
-            yeniArray[k]=arr[i];
+    public static int[] newAr(int[] sary){
+
+        int[] newary=new int[sary.length];
+        for (int i=newary.length-1,k=0;i>=0;i--,k++){
+            newary[i]=sary[k];
         }
-        return yeniArray;
+        return newary;
     }
     //Boyutu 10 olan bir array oluşturun ve içerisine Random sınıfını
     // kullanarak 0-100 arasında

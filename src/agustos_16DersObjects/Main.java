@@ -67,6 +67,9 @@ public class Main {
         person_1.paraYatir(50);
         System.out.println(person_1.musteriAdSoyad+ " " +person_1.hesapNo+"nolu hesapta" +
                 +person_1.paraMiktari+ " dolar vardir" );
+
+
+
          }
 
         }

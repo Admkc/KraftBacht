@@ -34,7 +34,7 @@ public class Agustos_30_31_Ders_Cozumler {
         }
     //Array’in içerisinde ard arda 3 adet sıralı sayı var ise true döndüren metodu yazınız.
 //[2,3,3,4,5,6,5,6,3]  true   [2,4,5,8,8]  false    [1,2,3]  true [1,2]  false
-    public static boolean ardArdaUc(int[] arr){
+    public static boolean ardArdaUc(int[] arr){     //kod hata veriyorrrr tekrar et
         if(arr.length<3){
             return false;
         }
@@ -141,19 +141,19 @@ public class Agustos_30_31_Ders_Cozumler {
 
     }
     //     3.yontem
-    public static int findCountLetter_3(String str,String harf){     // buraya tekrar bak**********
+    public static int findCountLetter_3(String str,String harf){
         return str.toLowerCase().length()-str.toLowerCase().replace("o","").length();
     }
     //Verilen bir cümlenin içerinde dublicate kelime varsa true yoksa false döndüren metodu yazınız.
 // araba ile yola çıktık fakat araba arıza yaptı     true
 // araba ile yola çıktık fakat arıza yaptı      false
 
-    public static boolean dublicateKelimeCheck(String str){
+    public static boolean dublicateKelimeCheck(String str){     //kod calısmıyor
         str=str.toLowerCase().replace(",","").replace(",","");
         String [] sarray=str.toLowerCase().split(" ");
         for(int i=0;i<sarray.length;i++){
             for(int k=0;k<sarray.length;k++){
-                if(i!=k && sarray[i].equals(sarray[k])){
+                if(i!=k && sarray[i].equals(sarray[k])){    //i k ne alaka
                     return true;
                 }
             }
@@ -202,7 +202,8 @@ public class Agustos_30_31_Ders_Cozumler {
         String result="";
                firstLoop: for(int sayi:sary){
                     if(sayi==2){
-                        result+=sayi+" ";}
+                        result+=sayi+" ";
+                    }
                     else if(sayi==0 || sayi==1) {
                         continue firstLoop;
                     }
@@ -220,7 +221,7 @@ public class Agustos_30_31_Ders_Cozumler {
             }
       //Array’in içerisindeki sayıları artan düzeyde sıralayınız. (Arrays.sort kullanılmayacak)
 
-            public static int[] kucuktenBuyugeSirala(int[] arr){      // recording tekrar etttttttttt
+            public static int[] kucuktenBuyugeSirala(int[] arr){
 
                     int depo=0;
                     for(int i=0; i<arr.length; i++){

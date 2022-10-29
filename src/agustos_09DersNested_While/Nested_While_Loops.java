@@ -170,7 +170,7 @@ public class Nested_While_Loops {
             System.out.println(" kac defa yazdirmak istersiniz");
             int repeat=scan.nextInt();
             for(int i=0;i<repeat;i++){
-                System.out.println(kelime);   //****dongüye girmiyor
+                System.out.println(kelime);
             }
         }
 

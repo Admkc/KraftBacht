@@ -51,6 +51,8 @@ class MAİN13{
         System.out.println(it.getAge());
        it.setBlack(true);
         System.out.println(it.getisBlack());
+        System.out.println(it.getAge());
+        it.setAge(24);
 
     }
 }

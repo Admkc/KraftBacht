@@ -184,7 +184,7 @@ public static String nokta(String str){
         String result="";
 
         while(!str.isEmpty()){
-            result+=str.charAt(0);    //***buyayı sor
+            result+=str.charAt(0);
             str=str.replace(str.substring(0,1),"");
         }
         return result;
@@ -193,7 +193,7 @@ public static String nokta(String str){
      public static String yinelenenKarakter(String str){
     String result="";
 
-    for(int i=0;i<str.length();){                   //buraya niye i++ koymadik***************
+    for(int i=0;i<str.length();){
         result+=str.charAt(i);
         str=str.replace(str.substring(i,i+1),"");
     }

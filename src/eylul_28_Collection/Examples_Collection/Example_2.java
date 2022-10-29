@@ -14,7 +14,7 @@ public class Example_2 {
         liste4.add(liste1);
         liste4.add(liste2);
         liste4.add(liste3);
-        System.out.println(liste4.get(0));// [5,2]     burayı sorrrrrr
+        System.out.println(liste4.get(0));// [5,2]
 
         List<Object> liste5=new ArrayList<>();
         liste5.add(liste4);

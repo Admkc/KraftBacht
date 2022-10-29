@@ -13,5 +13,7 @@ public class Queue_Ders {
 
         que.poll();
         System.out.println(que);
+        que.poll();
+        System.out.println(que);
     }
 }

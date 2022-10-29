@@ -29,6 +29,7 @@ public class Loops {
 
         //do ---while
 
+        int i=0;
         do{
             System.out.print("do while " +arry[i]);
            i++;
@@ -46,7 +47,7 @@ public class Loops {
             System.out.println(iter.next());
        }
 */
-       //  forEach metodu                                                     sor   p-> ismi neydi************
+       //  forEach metodu
         set.forEach(p-> System.out.println(p+2));  //iki artırarak yazdırır
         set.forEach(p-> System.out.println(p));
 

@@ -19,7 +19,7 @@ public class Set_İnterface_Study {
 
         //for ile yazdırma
         for (Long each:longSet){
-            System.out.println(longSet);  //70,7
+            System.out.println(each);  //70,7
         }
 
         longSet.addAll(Arrays.asList(2l,3l,4l,4l,4l));
