@@ -3,6 +3,15 @@ package _temmuz_26_Ders;
 import java.util.Scanner;
 
 public class temmuz_27_Variable {
+    /**
+     2-VAriable üzerinde veri depolamamıza olanak sağlayan sembolik isimlerdir.
+
+     Instance variable --> class içinde method dışında oluşturulur (access modifiers uygulanır)
+     Static variable --> class içinde method dışında oluşturulur (access modifiers uygulanır)
+     Lokal variable --> method içerisinde oluşturulur (access modifiers uygulanmaz)
+     .. ömrü methodla başlar ve methodla biter
+
+     */
 
     public static void main(String[] args){
         //byte

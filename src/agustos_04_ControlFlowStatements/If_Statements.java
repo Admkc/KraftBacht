@@ -1,6 +1,12 @@
 package agustos_04_ControlFlowStatements;
 
 public class If_Statements {
+    /**
+     * Bu ko?ul yap?s?; b?t?n programlama dillerinde olan, baz? ?artlar?n ger?ekle?mesi veya ger?ekle?memesi durumunda
+     * ayr?-ayr? kod bloklar?n?n ?al??t?r?lmas?na imk?n veren yap?d?r.
+     * Belirtilen ko?uldan geri d?nen True/False Boolean de?erine g?re i?lemler yapabilmenizi sa?lar.
+     Basit?e kontrol etti?i ?art?n true olmas? hainde program?n y?r?t?lmesini sa?lar.
+     */
     public static void main(String[] args) {
 
         int speed=30;

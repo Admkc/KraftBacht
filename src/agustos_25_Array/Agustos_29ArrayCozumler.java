@@ -20,7 +20,7 @@ public class Agustos_29ArrayCozumler {
 //        System.out.println(Arrays.toString(araSayılariAta(14,9)));
 
     }
-    //Array’in içerisindeki tüm sayıların toplamını veren metodu yazınız..(for each)
+    //NOTTTTTTTT’in içerisindeki tüm sayıların toplamını veren metodu yazınız..(for each)
     public static int toplam(int[] arr){
         int result=0;
         for(int sayi:arr){
@@ -28,7 +28,7 @@ public class Agustos_29ArrayCozumler {
         }
         return result;
 }
-         //Array’in içerisindeki tüm çift sayıların toplamını veren metodu yazınız.
+         //NOTTTTTTTT’in içerisindeki tüm çift sayıların toplamını veren metodu yazınız.
     public static int ciftToplam(int[] arr){
         int result=0;
         for(int sayi:arr){
@@ -40,7 +40,7 @@ public class Agustos_29ArrayCozumler {
         return result;
 
     }
-    //Array’in içerisindeki tüm 3 sayılarının toplamını veren metodu yazınız.
+    //NOTTTTTTTT’in içerisindeki tüm 3 sayılarının toplamını veren metodu yazınız.
     public static int ucSum(int[] arr){
         int result=0;
         for(int sayi:arr){
@@ -51,7 +51,7 @@ public class Agustos_29ArrayCozumler {
         return result;
 
     }
-    //   Array’in içerisindeki en büyük ve en küçük sayı arasındaki farkı bulan metodu yazınız.
+    //   NOTTTTTTTT’in içerisindeki en büyük ve en küçük sayı arasındaki farkı bulan metodu yazınız.
     //   (Arrays.sort kullanılmayacak)
     public static int min(int[] arr){
         int min=arr[0];
@@ -75,7 +75,7 @@ public class Agustos_29ArrayCozumler {
         return max;
 
     }
-    //Array’in içerisindeki en küçük sayıyı tüm indekslere atayan bir
+    //NOTTTTTTTT’in içerisindeki en küçük sayıyı tüm indekslere atayan bir
     // metod yazınız.(Arrays.sort ve Arrays.fill kullanılmayacak)
     public static int[] enKucukSayiIleDoldur(int[] arr){
         int[] yeniArray=new int[arr.length];
@@ -151,7 +151,7 @@ public class Agustos_29ArrayCozumler {
         }
         return true;
     }
-//    Array’in içerisindeki sayıları
+//    NOTTTTTTTT’in içerisindeki sayıları
 // ters çevirerek yeni bir array oluşturan metodu yazınız    //tekrar bak kod calişmıyorrrr
 
     public static int[] newAr(int[] sary){
@@ -186,7 +186,7 @@ public class Agustos_29ArrayCozumler {
     }
     //Boyutu 500 olan bir array oluşturun ve içerisine Random sınıfını
 // kullanarak 120-140 arasında rasgele sayılar atayın.
-// Oluşturduğunuz Array in içerinde kaç adet 125 sayısı vardır?
+// Oluşturduğunuz NOTTTTTTTT in içerinde kaç adet 125 sayısı vardır?
     public static int find125(int boyut){
         Random random=new Random();
         int [] yeniArray=new int[boyut];

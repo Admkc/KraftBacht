@@ -3,6 +3,9 @@ package agustos_12Ders;
 import java.util.Scanner;
 
 public class MethodOverloading {
+    /**
+  Farklı parametrelerle aynı isimde birden fazla metot a sahip olabilme demektir.
+     */
     public static void main(String[] args) {
  //       calculateArea(65,45);
  //       calculateArea(25);

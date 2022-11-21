@@ -1,6 +1,12 @@
 package agustos_11Ders_Method_Lesson;
 
 public class Method_Lesson_Repaıt {
+    /**
+     * METOT
+     Belli bir görev için oluşturulmuş , tekrar tekrar çağırdığımız yerlerde kullanabileceğimiz
+     kod blokları ve ifade topluluklarıdır.
+
+     */
     public static void main(String[] args) {
 
  //       message();

@@ -3,6 +3,12 @@ package agustos_04_ControlFlowStatements.switch_;
 import java.util.Scanner;
 
 public class Switch_Lesson {
+    /**
+     Switch yapısı bir variable ın değerini case olarak adlandırılmış durumlardan matchetmeye(eşlemeye) çalışır.
+
+     Switch yapısı eşleşme bulduğu anda break ile code bloğundan çıkar geri kalanı kontrol etmez.
+     switch if yapılarına göre daha hızlı yapar.
+     */
     public static void main(String[] args) {
 
        Scanner sc=new Scanner(System.in);

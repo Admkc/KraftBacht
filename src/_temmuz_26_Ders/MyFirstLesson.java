@@ -4,6 +4,11 @@ public class MyFirstLesson {
 
     public static void main(String[] args){
 
+        System.out.println("Benim \"kizim\" var");
+        System.out.println("\"efeeeeeeeeeeee\" ");
+        System.out.println("\'poncu\' ");
+
+
 
 //        System.out.println("Merhaba Dunya");
 //

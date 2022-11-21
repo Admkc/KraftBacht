@@ -22,7 +22,7 @@ public class Exception_ {
 
         try {
 //            System.out.println(str.length());//null pointer exception
-//            System.out.println(arr[50]);//Array index out of bound exception
+//            System.out.println(arr[50]);//NOTTTTTTTT index out of bound exception
 //            Integer.parseInt("iki");//number format exception
 //            int i = 55/0;//arithmetic exception
 

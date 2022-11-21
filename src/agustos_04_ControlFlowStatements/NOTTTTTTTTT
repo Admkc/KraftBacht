@@ -1,0 +1,14 @@
+CONTROL FLOW STATEMENTS
+
+Karar verme, döngü ve dallanma kullanarak programınızın belirli
+koşullarda yürütülmesini sağlayan yapılardır.
+
+• Karar verme if, if-else ve switch-case
+
+• Döngü(looping) while, do while, for
+
+--Kodlarımızı yazarken bazı kodları birden fazla kullanmamız gerektiğinde
+  yada aynı işlemleri birden çok kez tekrarlama ihtiyacı duyduğumuzda for,
+  while ve do-while gibi döngüler kullanmamız gerekebilir.
+
+• Dallanma(branching) break,continue,return

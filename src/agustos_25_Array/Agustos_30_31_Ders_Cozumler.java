@@ -16,7 +16,7 @@ public class Agustos_30_31_Ders_Cozumler {
  //       System.out.println(Arrays.toString(enkucuk0Ata(sayilar)));
  //       System.out.println(asalSayiBul(sayilar));
     }
-    // Array içerisindeki en büyük 2. sayıyı bulun. (Array.sort kullanılmayacak)
+    // NOTTTTTTTT içerisindeki en büyük 2. sayıyı bulun. (NOTTTTTTTT.sort kullanılmayacak)
 
     public static int enBuyuk2(int[] sarry){
         int a=sarry[0];
@@ -32,7 +32,7 @@ public class Agustos_30_31_Ders_Cozumler {
         }
         return b;
         }
-    //Array’in içerisinde ard arda 3 adet sıralı sayı var ise true döndüren metodu yazınız.
+    //NOTTTTTTTT’in içerisinde ard arda 3 adet sıralı sayı var ise true döndüren metodu yazınız.
 //[2,3,3,4,5,6,5,6,3]  true   [2,4,5,8,8]  false    [1,2,3]  true [1,2]  false
     public static boolean ardArdaUc(int[] arr){     //kod hata veriyorrrr tekrar et
         if(arr.length<3){
@@ -47,7 +47,7 @@ public class Agustos_30_31_Ders_Cozumler {
         return false;
 
     }
-    //Array’in içerindeki eşi olmayan yalnız sayıları bulan ve
+    //NOTTTTTTTT’in içerindeki eşi olmayan yalnız sayıları bulan ve
     // bunları ekrana yazdıran metodu yazınız.
     // (sağında veya solunda aynı sayı yoksa yalnızdır.) (return array)
 //[2,3,3,4,5,6,5,6,3]  2,4,5,6,3
@@ -77,7 +77,7 @@ public class Agustos_30_31_Ders_Cozumler {
 
 
     }
-    //Array’in içerisinde en çok bulunan sayıyı veren metodu yazınız.
+    //NOTTTTTTTT’in içerisinde en çok bulunan sayıyı veren metodu yazınız.
 // (eşitlik durumda herhangi birini alabilir,1 den  bulunmuyorsa -1 döndürecek)
 //[2,3,3,3,6,6,5,6,3]  3
 //
@@ -102,7 +102,7 @@ public class Agustos_30_31_Ders_Cozumler {
         }
         return encok;
     }
-    //Array’in içerindeki dublicate sayı varsa true yoksa false döndüren metodu yazınız
+    //NOTTTTTTTT’in içerindeki dublicate sayı varsa true yoksa false döndüren metodu yazınız
     //[1,2,8,1]   true
     //[25,89,78,98]   false
     public static boolean dublicateSayi(int[] sarry){
@@ -161,7 +161,7 @@ public class Agustos_30_31_Ders_Cozumler {
         }
         return false;
     }
-//    Array’in içerisindeki en küçük sayıyı bulan ve array in ilk indeksine
+//    NOTTTTTTTT’in içerisindeki en küçük sayıyı bulan ve array in ilk indeksine
 // bu sayıyı atayan diğer indekslere 0 atayan metodu yazınız.  [5,7,1,9]  [1,0,0,0]
 
       public static int[] enkucuk0Ata(int[] sarry){
@@ -180,7 +180,7 @@ public class Agustos_30_31_Ders_Cozumler {
           return yeniarray;
 
       }
-    //Array’in içerisindeki sayılardan 5 den sonra 8 geliyorsa 8 yerine 1 atayan metodu yazınız
+    //NOTTTTTTTT’in içerisindeki sayılardan 5 den sonra 8 geliyorsa 8 yerine 1 atayan metodu yazınız
 
     public static int[] degerAtamaKontrol(int[] arr,int ilkDeger,int kontroldegeri, int atanacakSayi){
         int[] yeniArray=new int[arr.length];
@@ -197,7 +197,7 @@ public class Agustos_30_31_Ders_Cozumler {
         }
         return yeniArray;
     }
-    //Array’in içerisindeki asal sayıları bularak ekrana yazdıran metodu yazınız
+    //NOTTTTTTTT’in içerisindeki asal sayıları bularak ekrana yazdıran metodu yazınız
     public static String asalSayiBul(int[] sary){
         String result="";
                firstLoop: for(int sayi:sary){
@@ -219,7 +219,7 @@ public class Agustos_30_31_Ders_Cozumler {
 
                 return result;
             }
-      //Array’in içerisindeki sayıları artan düzeyde sıralayınız. (Arrays.sort kullanılmayacak)
+      //NOTTTTTTTT’in içerisindeki sayıları artan düzeyde sıralayınız. (Arrays.sort kullanılmayacak)
 
             public static int[] kucuktenBuyugeSirala(int[] arr){
 

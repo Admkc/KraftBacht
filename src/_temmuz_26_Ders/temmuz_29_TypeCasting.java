@@ -1,14 +1,32 @@
 package _temmuz_26_Ders;
 
 public class temmuz_29_TypeCasting {
+    /**
+     * (Widening(genişletme)
+     daha küçük bir türü daha büyük bir türe otomatik olarak gerçekleşir) -
+
+     ya da
+
+     *(narrowing)
+      daha büyük bir türü daha kücük bir türe dönüştürme işlemine denir. manuel
+
+     converting
+
+     */
 
     public static void main(String[] args) {
 
         //TYpe casting
         //Widening
 
-        int myAge = 8;
-        double myDouble = myAge;
+        int year=1250;
+        double yil=year;
+
+       double price=85.21;
+       int newPrice=(int) price;
+
+       int myAge = 8;
+       double myDouble = myAge;
 
         System.out.println(myDouble);
 
@@ -29,6 +47,9 @@ public class temmuz_29_TypeCasting {
         //Narrowing
         double d = 9.78;
         int i = (int) d;
+
+
+
 
         System.out.println(i);
 
