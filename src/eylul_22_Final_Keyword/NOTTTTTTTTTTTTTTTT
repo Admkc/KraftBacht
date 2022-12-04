@@ -1,0 +1,76 @@
+FİNAL KEYWORD
+
+Final variable:  Bir kere variable a tanimlanip degistirilemez.
+Final metod: motodun overriding yapilmasının onune geciyor.
+Final class:  kalitimi onler.herhangi bir yere kalitim yapmaz ama kalitimi alır.  Kısır class olur..
+
+***constructor private yapılırsa obje olusturulamaz.
+***static metodlarin icinde this kullanılamaz.Hata verir.
+***variable override edilemez sadece gizlenebilir
+
+Static and Instance Initialize Blocks
+
+2 tür Initialize blok vardır.
+
+Static Block: Static initialize blocklar main metodundan
+önce sınıf yüklendiğinde çalışır. Static blocklar ilk önce ve
+sadece 1 kereliğine çalışır.
+
+Instance Block: Instance blocklar ilgili obje/instance
+oluşunca çalışacaktır.
+
+Instance blocklar her obje oluşturulduğunda tekrar
+çalışacaklardır.
+
+final keyword
+final keyword’ü bir Access modifier (erişim belirleyici) değildir. Veriable(değişken), method ve
+class lara uygulanabilir.
+
+final veriables
+Bir veriable final olarak tanımlanırsa değeri bir daha
+değiştirilemez. final olarak tanımlanan veriable büyük harfler
+ile yazılır.(Yazım kuralı, yazılmasa bile program hata vermez)
+Local veriable’a tanımlandığında ilk değerini almalıdır. Metot
+son bulduğunda local veriable silinir.
+Instance veriable’a tanımlandığında ise ilk değerini 3 farklı
+şekilde alabilir.
+1-aynı satırda
+2-Constructor içerisinde
+3-instance initialize block içerisinde
+
+final array
+Eğer bir array değişkeni (Object veriable) final olarak
+tanımlanmış ise elemanlarını değiştirebilirsiniz. Array’ler bir
+obje olduğundan dolayı Object veriable lar referansları tutar.
+Kısaca array değişkenleri referanslardır. Bu nedenle
+referansını değiştiremezsiniz
+
+final arrayList
+Array ler ile aynı mantıkta çalışır. İçeriğini değiştirebilirsiniz
+fakat farklı bir obje final keyword’ü ile tanımlanan arrayListe
+atanamaz.
+
+final methods
+final keyword’ü ile tanımlanan metotlar overridden
+edilemezler.
+
+final class
+final olarak tanımlanan class’lar farklı bir sınıfı extends edebilir. Fakat extends edilemez.
+final olarak tanımlanan class’lar immutable (değiştirilemez) olur. final keyword’ü kullanılmadan bir
+sınıf immutable yapılamaz.
+
+İnstance veriable hiding
+Instance veriable’lar override edilemez . Fakat gizlenebilir.
+Örneğin parent sınıfımızda name adında bir instance veriable var, child sınıfımızda da name
+adında bir instance veriable tanımladık. 2 farklı name den sadece birini kullanılabilir. Hangi
+sınıftan obje üretildi ise o sınıfın veriable kullanılır.
+
+Static methods hiding
+
+Static metotlar override (Method Overriding) edilemezler fakat gizlenebilirler.
+Method Overriding ile benzerdir fakat aynı değildir.
+İs-A ilişkisi olan iki farklı sınıfda yapılır.
+Aynı isme sahip olmalı ve her ikiside static olarak tanımlanmalıdır.
+Metot parametresi aynı
+Erişim belirleyicisi(Acces modifier) daha kısıtlayıcı olamaz.
+Return type aynı veya covaryant olabilir. (Covaryant:(same class type or sub class type) )

@@ -1,0 +1,117 @@
+EXCEPTİON HANDLİNG
+
+Bir programın istisnai durumlarla (exceptional situations ) başa çıkmasını ve normal
+çalışmasına devam etmesini sağlar
+
+JVM, gerçekleştirilmesi imkansız bir işlem algılarsa, program çalışırken Run Time Errors
+(Çalışma zamanı hataları) oluşur.
+
+Örneğin, sınırları dışında bir array kullanarak bir array’in indexine erişmeye çalışırsanız,
+ArrayIndexOutOfBoundsException ile bir Run time error alırsınız.
+
+Java'da, Run time errors Exception (istisna) olarak atılır (thrown-atmak fırlatmak). Exception,
+yürütmenin normal şekilde ilerlemesini engelleyen bir hatayı veya koşulu temsil eden bir nesnedir
+
+Exception işlenmezse, program anormal şekilde sonlandırılır. Programın çalışmaya devam
+edebilmesi veya düzgün bir şekilde sonlandırılabilmesi için Exception’ı nasıl handle (ele almak)
+edebiliriz ?
+
+Kısaca;
+Exception, bir hatanın (error) veya beklenmeyen bir olayın sonucu olarak oluşturulan bir
+Obje(Nesne)dir.
+Özel durumların programınızın çökmesini önlemek için bunları algılayan ve handle eden bir kod
+yazmalısınız.
+Java'da – her Error ve her Exception aynı zamanda bir Obje’dir
+
+Program Bugs
+3. Party library
+Wrong user input
+Network issue
+Hard drive failure
+
+Exception Handling
+Bir Exception’ı handle etmek istediğimizde try keyword’ünü kullanırız
+
+Try bloğunda program herhangi bir exception thrown etmez ise (istisna/hata vermez) catch bloğu atlanır.
+
+Errors in Java
+
+Compile Errors: Derleyici onu yakalar ve kodun başarıyla derlenmesine izin vermez. Tüm sözdizimi hatalarını
+kaldırana veya derleme zamanı hatalarını ayıklatana kadar programınızın tek bir satır yürütmesine izin vermezler.
+Bunu halletmek için try/catch bloğunu kullanamayız.
+(Örn: Sözdizimi hataları, veri türleri, interface den obje oluşturma vb..)
+
+Run Time Errors/Exception:
+
+Run Time Errors: Execution sırasında oluşan Errors
+(Örn: StackOverFlow hatası (Stack bellek dolu), OutOfMemoryError (Heap bellek dolu).
+Handle için try/catch kullanamıyoruz.
+Run Time Exception: Execution sırasında gerçekleşen Exceptions
+(Ör: IndexOutOfBounds İstisnası, NoSuchElementException)
+Handle edilebilir.
+
+Finally block
+Try catch bloğuna ilave olarak sonuna finally bloğu ekleyebiliriz. Bu bloğu ekleyip eklemek size bağlıdır.
+Kodunuz Exception thrown etsin etmesin (hata yakalasın veya yakalamasın) catch bloğundan sonra
+Sistemden çıkılmaz veya JVM crash olmaz ise finally bloğu her zaman çalışacaktır.
+
+Checked and Unchecked Exceptions
+
+Exception’lar 2 farklı kategoride değerlendirilir.
+
+Checked Exceptions: RuntimeException ve Error sınıfını extends eden sınıflar dışındaki sınıflar checked
+exception’dır. Kod derlenmez (Compile). Java’da hata alınarak düzeltilmesi istenir. Bu nedenle try catch veya
+declare (throw) yöntemi kullanarak sorunu çözmemiz gerekiyor.
+
+Unchecked Exceptions: Handle/Declare edip etmemek sizin kararınızdır. Compile esnasında herhangi bir
+hata alınmaz. Run time esnasında Exception alınabilir
+
+Checked Exceptions
+İsminden de anlaşılacağı üzere derleyici tarafından kontrol edilen exceptionlardır. Derleyici
+tarafından kontrol edildikleri için biz bu exceptionları kodumuzda belirtmek zorundayız. Aksi
+halde derleme işlemini başarıyla tamamlamak mümkün değildir.
+RuntimeException ve Error sınıfını extends eden sınıflar dışındaki sınıflar checked
+exception’dır.
+Kod derlenmez (Compile). Java’da hata alınarak düzeltilmesi istenir. Bu nedenle sorun
+çözülmelidir. 2 farklı şekilde sorun düzeltilebilir.
+1- Handle : try catch finally blok
+2- Declare : Method tanımında throws anahtar kelimesi ile bu riski aldığımızı belirtebiliriz.
+
+Unchecked Exceptions
+İsminden de anlaşılacağı gibi derleyici tarafından kontrol edilemeyen exceptionlardır. Derleyici
+tarafından kontrol edilemedikleri için kodumuz başarıyla derlenmiş olsa bile çalışma
+zamanında bu hatalarla karşılaşabiliriz.
+RuntimeException ve Error sınıfı ve bu sınıfları extends eden sınıflar Unchecked exception’dır.
+Kod derlenir (Compile). Handle/Declare edip etmemek sizin kararınızdır. Run time esnasında
+Expedition alınabilir.
+1- Handle : try catch finally blok
+2- Declare : method tanımında throws anahtar kelimesi ile bu riski aldığımızı belirtebiliriz
+
+Multiple catch Blocks
+Kodumuzun birden fazla Excteption türünde hata üretebileceğini düşünüyorsak istenildiği kadar
+catch bloğu alt alta yazılabilir. Fakat Exception türünü bulduğunda ilgili catch bloğunu
+çalıştıracağından dolayı özelden genele gitmek gereklidir.
+
+throw clause
+Yeni oluşturduğunuz bir Exception sınıfından veya var olan sınıflardan bir Exception throw
+etmek istediğinizde manuel olarak Exception throw (fırlatmak) edebilirsiniz.
+
+throws clause
+Metodun bünyesinden bir excepiton fırlatılmış ve bulunduğu metodun içerisinde try -catch içine
+almak yerine başka bir yerde bu exception yakalamak istenirse metot tanımının sonuna throws
+anahtar kelimesi eklenir.
+Bu işlem exceptionı bir üst katmana throws eder. Exception bu metodu kullanan metot
+tarafından işlenmelidir.
+Kısaca bir metot throwsla declare edildiği zaman oluşan exceptionı handle etmeden, kendisini
+çağıran metoda gönderiyor.
+
+throws clause
+Kural: Metot’a throws anahtar kelimesi ile bir
+exception deklare ederseniz bu metodu kullanan
+farklı bir metot da aynı exception’ı declare etmeli
+yada handle etmelidir
+
+Creating Custom Exceptions
+Exception sınıfını veya alt sınıfları kendi sınıfınıza
+extends ederek kendi exceptions sınıflarınızı
+oluşturabilirsiniz.

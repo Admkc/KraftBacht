@@ -4,9 +4,8 @@ Arraye ait değişkenler, sıra numarası verilmiş bir liste gibidir.
 Bu listeye ait olan öğelere de sıra numarasıyla erişilir.
 
 Arraylist ise:
-farklı değişken türlerini barındırabiliyor olmasıdır. Dinamiktir. ArrayList aslında koleksiyon tabanlı bir sınıftır.
-ArrayList oluşturulurken kaç elamandan oluştuğunu belirtmemize
-gerek yoktur.
+farklı variable türlerini barındırabiliyor olmasıdır. Dinamiktir. ArrayList aslında koleksiyon tabanlı bir sınıftır.
+ArrayList oluşturulurken kaç elamandan oluştuğunu belirtmemize gerek yoktur.
 
 
 

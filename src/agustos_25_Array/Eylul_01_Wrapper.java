@@ -2,10 +2,12 @@ package agustos_25_Array;
 
 public class Eylul_01_Wrapper {
     /**
+     * birer nesne (object) olarak kullanmak için bize bir yol sunmaktadır
      javada primitive tiplerinde nesne olarak üretilebileceği veya convert edilebileceği her tipe
      karşılık gelen class ları vardır. Bunlara Wrapper Classes denmektedir.
-     Eğer biz bir collections nesnesinin içerisinde bir Primitive tip tutmak istiyorsak mecburen
-     o Primitive tipi başka bir sınıf ile sarmalamamız gerekecek. Bu yüzden Java da java.lang package altında her ilkel tip için bir sarmalayıcı (wrapper classes) sınıf vardır.
+     ***Eğer biz bir collections nesnesinin içerisinde bir Primitive tip tutmak istiyorsak mecburen
+     o Primitive tipi başka bir sınıf ile sarmalamamız gerekecek.
+     Bu yüzden Java da java.lang package altında her ilkel tip için bir sarmalayıcı (wrapper classes) sınıf vardır.
      ***Autoboxing primitive in object karşılığına çevrilmesidir.
      ***Unboxing bir object in primitive karşılığına çevrilmesidir
      */

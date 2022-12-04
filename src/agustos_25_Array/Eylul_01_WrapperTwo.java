@@ -5,7 +5,6 @@ public class Eylul_01_WrapperTwo {
 
 
 
-
         Integer I=10;
         int sayi=I.intValue();
         System.out.println("i : "+sayi);

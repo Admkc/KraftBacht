@@ -1,0 +1,28 @@
+OOP NEDİR?
+Java’da OOP yani nesneye yönelik programlamanın temel amacı programların
+esnekliğini, yeniden kullanılabilirliğini ve sürdürülebilirliğini sağlamaktadır. Şöyle
+düşünelim, OOP ile yazdığımız kodları parçalar haline böleriz, parçalar haline
+böldüğümüzden dolayı herhangi bir hata ile karşı karşıya kaldığımızda, veya bir veri
+eklemek istediğimizde bunu kolaylıkla yapabilme imkanımız olur.
+
+OOP AVANTAJLARI
+● Yapacağımız programları, kodu baştan yazmaya başlamak zorunda kalmadan,
+birbiriyle iletişim kuran çalışma bağlantıları oluşturabiliriz, bu da program geliştirme
+süresinde zamandan tasarruf ve yüksek verimlilik gibi avantajlar sağlar.
+● Çalışmamızı nesneye dayalı bir projede ayrıştırmak çok kolaydır.
+● Veri gizleme ilkesi ile programın ele geçirilemeyen güvenli programlar
+oluşturulmasında yardımcı olur.
+● Gereksiz kodları ortadan kaldırabilir ve mevcut sınıfların kullanımını genişletebiliriz.
+● Birden fazla nesne örneğini herhangi bir müdahale olmaksızın bir arada var olması
+mümkün kılar
+● Daha fazla programcı üretkenliği, daha iyi yazılım kalitesi ve daha az bakım maliyeti
+vaat eder.
+
+
+
+1)Encapsulation (Data hidding-Kapsülleme)
+
+Class içerisine erişimin kısıtlanması ve dış dünyaya kontrollü açılmak isteniyor ise encapsulation
+yöntemi kullanılmalıdır.
+Kısaca Sınıfının kendi iç yapısını(verilerini) gizleyerek (private) sadece metotlar ile erişime izin
+vermesidir. (Getter-Setter metodları)

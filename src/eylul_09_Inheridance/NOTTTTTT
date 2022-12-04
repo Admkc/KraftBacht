@@ -1,0 +1,5 @@
+Inheritance (Kalıtım):
+Bir sınıfın başka bir sınıftan özelliklerini miras olarak almasıdır. Gerçek hayattan bir
+örnek ile düşünürsek, anne ve babamızdan saç rengi, göz rengi veya boy gibi genetik
+özellikleri almamız gibi düşünebiliriz. Kalıtım sayesinde yazmış olduğumuz kodlarda
+sade ve sürekli tekrar gerektirmeden işlemler yapmamıza olanak sağlar.

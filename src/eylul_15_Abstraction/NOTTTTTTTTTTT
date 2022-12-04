@@ -1,0 +1,6 @@
+Abstraction (Soyutlama):
+Kullanıcıya sadece temel ayrıntıların verildiği bir özelliktir. Bir kurutma makinesi
+örneği verelim, kullanıcı kurutma makinesini çalıştırmıştır ama kullanıcı sadece
+çalıştırmayı bilmektedir, nasıl kuruttuğu, nasıl ısındığı veya iç mekanizması hakkında
+bir fikri yoktur. Abstraction (soyutlama) Önemsiz veya temel olmayan birimler
+kullanıcıya gösterilmemesini sağlamaktadır.

@@ -1,0 +1,11 @@
+Interface
+
+Javada abstraction sağlamak için kullanılan ikinci yapı Interface dir. Ayrıca
+multiple inheritance sağlayabildiğimiz bir yapıdır. Interface IS-A
+relationship konseptine de sahiptir.
+Abstract class larda olduğu gibi Interface den de nesne üretemeyiz.
+Java 8 den itibaren default ve static methodlar interface e
+eklenebilmektedir.
+Java 9 den itibaren de private method lar interface e eklenebilmektedir.
+
+***Interface i bir class ın blueprint i gibi kabul edebiliriz.

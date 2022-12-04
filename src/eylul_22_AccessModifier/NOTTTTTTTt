@@ -1,0 +1,16 @@
+Access Modifiers (Erişim belirleyiciler)
+
+Java'da 4 erişim değiştiricisi vardır:
+• public
+• protected
+• default
+• private
+
+* Sınıfların iki erişim değiştiricisi olabilir: public ve default
+
+* Veriable(Değişkenler), Constructor ve metotlar, dört erişim belirleyicilerinin tümüne sahip olabilir.
+
+ -- private  --> sadece kendi sınıfından erişilebilir
+ -- public --> her yerden erişilebilir
+ -- default --> aynı package içerisinde doğrudan erişilebilir
+ -- protected --> aynı paket içerisinde ve farklı paketlerde dahi olsa parent-child ilişkisi varsa erişilebilir

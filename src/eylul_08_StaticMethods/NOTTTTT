@@ -1,0 +1,12 @@
+Java'da Static deyimi, sınıf değişkenlerini ve ya sınıf metotlarını tanımlarken kullanılır.
+Eğer bir sınıfa ait değşikenlerin başına "static" yazılırsa, o değişkenler artık sınıf değişkeni olurlar.
+ Sınıf değişkeni olarak tanımlanan değişkenler, her nesne oluşturduğumuzda ayrı ayrı oluşmazlar.
+
+ Yani static bir değişkenin her zaman bir değeri vardır.
+ Bir sınıfa ait olan özelliklere ilk değerleri atmak için kullanılır.
+ “static” sınıflar nesne oluşturamaz ve yalnızca static üyeler barındırabilirler.
+
+ Statik ifadeler sadece bir yerde çalışır ve sadece bir kere çalışır.İşin en basit hali bu.
+ Static bir değişken herhangi bir class yapısına bağlı değildir. Bellekte tek biryerde tutulur.
+ Static metodların çalışma durumlarıyla aynıdır. Static olan verileri yönetirler.
+ Ve aynı zamanda girdi noktaları olarak kullanılırlar. Fakat onları normal metodların içinde çağırabiliriz.

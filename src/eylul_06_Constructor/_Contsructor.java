@@ -1,8 +1,12 @@
-package agustos_25_Array;
+package eylul_06_Constructor;
 
-import eylul_06_Constructor.KrafftBankCustemer;
+public class _Contsructor {
+    /**
+     * nesneleri başlatmak için kullanılan özel bir metottur.
+     Contructor bir sınıfın bir nesnesi oluşturulduğunda çağrılır.
+     * Nesne nitelikleri için başlangıç değerini ayarlamak için kullanılabilir.
 
-public class Eylül_06_Contsructor {
+     */
     public static void main(String[] args) {
 //
 //        Okul namikkemal=new Okul();
